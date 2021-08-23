@@ -10,7 +10,7 @@
 	<packaging>pom</packaging>
 	<groupId>com.usp.springframework</groupId>
 	<artifactId>usp-pet-clinic</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>usp-pet-clinic</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -41,6 +41,6 @@
 	</modules>
 	<scm>
 	<developerConnection>scm:git:git@github.com:shankarpattamatta/usp-pet-clinic.git</developerConnection>
-	  <tag>usp-pet-clinic-0.0.2</tag>
+	  <tag>usp-pet-clinic-0.0.3</tag>
   </scm>
 </project>
