@@ -41,6 +41,6 @@
 	</modules>
 	<scm>
 	<developerConnection>scm:git:git@github.com:shankarpattamatta/usp-pet-clinic.git</developerConnection>
-	  <tag>usp-pet-clinic-0.0.2</tag>
+	  <tag>usp-pet-clinic-0.0.3</tag>
   </scm>
 </project>
