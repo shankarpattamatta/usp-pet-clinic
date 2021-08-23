@@ -3,10 +3,10 @@
 	<parent>
 		<groupId>com.usp.springframework</groupId>
 		<artifactId>usp-pet-clinic</artifactId>
-		<version>0.0.3</version>
+		<version>0.0.4-SNAPSHOT</version>
 	</parent>
 	<artifactId>pet-clinic-data</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<properties>
 		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 	</properties>
