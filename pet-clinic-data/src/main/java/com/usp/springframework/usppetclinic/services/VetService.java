@@ -4,9 +4,6 @@ import java.util.Set;
 
 import com.usp.springframework.usppetclinic.model.Vet;
 
-public interface VetService {
+public interface VetService extends CrudService<Vet,Long> {
 	
-	Vet findById(long Id);
-	Vet save(Vet vet);
-	Set<Vet> findAll();
 }
