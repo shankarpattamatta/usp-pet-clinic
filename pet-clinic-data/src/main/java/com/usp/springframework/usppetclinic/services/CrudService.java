@@ -1,9 +1,11 @@
+package com.usp.springframework.usppetclinic.services;
 
-public interface CrudService<T,ID> {
+import java.util.Set;
 
-	 Set<T> findAll(T);
+public interface CrudService<ID,T> {
+	 Set<T> findAll(T object);
 	 T findById(ID Id);
-	 T save(T Object);
-	void delete(T Object);
-	void deleteById(ID id)
+	 void delete(T Object);
+	 void deleteById(ID id);
+	T save(ID Id, T object);
 }
